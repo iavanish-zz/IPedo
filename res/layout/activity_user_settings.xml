@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cornflowerblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/changeUserHandle"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/changeUserHandle" />
+    
+    <Button
+        android:id="@+id/addFriends"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/addFriends" />
+        
+    <Button
+        android:id="@+id/deleteFriends"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/deleteFriends" />
+    
+</LinearLayout >

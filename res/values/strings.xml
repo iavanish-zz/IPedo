@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IPedo</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">376381995862346</string>
+    <string name="startPedometer">Start Pedometer</string>
+    <string name="title_activity_pedometer">Pedometer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dweet_steps">DweetSteps</string>
+    <string name="title_activity_show_dweet">ShowDweet</string>
+    <string name="title_activity_google_maps_implementation">GoogleMapsImplementation</string>
+    <string name="dweetIt">Dweet Current Step Count</string>
+    <string name="showPreviouslyDweetedSteps">Show Previously Dweeted Steps</string>
+    <string name="showRecordedLocationsOnGoogleMaps">Show Recorded Locations on Google Maps</string>
+    <string name="timeline">Timeline of Counted Steps</string>
+    <string name="compareWithAFriend">Compare With a Friend</string>
+    <string name="recordCurrentLocation">Record Current Location</string>
+    <string name="notifyUserToStartWalking">Notify User to Start Walking</string>
+    <string name="enterFriendID">Enter Friend ID</string>
+    <string name="submit">Submit</string>
+    <string name="changeUserHandle">Change User Handle</string>
+    <string name="addFriends">Add Friends</string>
+    <string name="deleteFriends">Delete Friends</string>
+    <string name="changeUserSettings">Change User Settings</string>
+    <string name="title_activity_timeline">Timeline</string>
+    <string name="title_activity_compare_with_afriend">CompareWithAFriend</string>
+    <string name="title_activity_show_comparison">ShowComparison</string>
+    <string name="title_activity_user_notification">UserNotification</string>
+    <string name="title_activity_user_settings">UserSettings</string>
+
+    <color name="black">#000000</color>
+    <color name="darkred">#8B0000</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="grey">#808080</color>
+
+    <string name="title_activity_change_user_handle">ChangeUserHandle</string>
+    <string name="title_activity_add_friends">AddFriends</string>
+    <string name="title_activity_delete_friends">DeleteFriends</string>
+    <string name="title_activity_record_location">RecordLocation</string>
+    <string name="title_activity_show_locations">ShowLocations</string>
+
+</resources>

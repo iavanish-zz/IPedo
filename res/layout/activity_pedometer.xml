@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/snow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/showStep"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+       	android:id="@+id/gap"
+      	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_gravity="center_horizontal"
+       	android:layout_marginTop="10dp"
+       	android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<ScrollView 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/gap" >
+         
+    <LinearLayout
+   		android:background="@color/cornflowerblue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/changeUserSettings"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/changeUserSettings" />
+        
+    <Button
+        android:id="@+id/dweetIt"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/dweetIt" />
+    
+    <Button
+        android:id="@+id/showPreviouslyDweetedSteps"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/showPreviouslyDweetedSteps" />
+        
+    <Button
+        android:id="@+id/timeline"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/timeline" />
+    
+    <Button
+        android:id="@+id/showRecordedLocationsOnGoogleMaps"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/showRecordedLocationsOnGoogleMaps" />
+
+    <Button
+        android:id="@+id/compareWithAFriend"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/compareWithAFriend" />
+    
+    <Button
+        android:id="@+id/recordCurrentLocation"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/recordCurrentLocation" />
+    
+    <Button
+        android:id="@+id/notifyUserToStartWalking"
+        android:textColor="@color/darkred"
+        android:background="@color/powderblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/notifyUserToStartWalking" />
+    
+    </LinearLayout>
+    
+    </ScrollView>
+    
+</LinearLayout >
